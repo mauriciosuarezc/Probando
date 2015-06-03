@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<form id="form1" runat="server">
+    <asp:Button ID="btnMostrar" runat="server" OnClick="btnMostrar_Click" Text="Mostrar" />
+    <br />
+    <asp:Image ID="Image1" runat="server" />
+    <br />
+    <br />
+</form>
+
